@@ -1,0 +1,32 @@
+module design_ram_Nx8(clk, rst, addr_a, addr_b, we_a, we_b, data_a, data_b, dataout_a, dataout_b, );
+ 
+parameter WIDTH=7;
+parameter HEIGHT=63;
+
+input clk, rst, we_a, we_b;
+input [7:0] addr_a;
+input [7:0] addr_b;
+input reg [15:0] data_a;
+input reg [15:0] data_a;
+
+output reg[15:0] dataout_a;
+output reg[15:0] dataout_b;
+
+
+ reg [WIDTH:0] memo [HEIGHT:0];
+
+    always @( posedge rst) begin
+        if (rst) begin
+            dataout_a <= 16'b0;
+            dataout_b <= 16'b0;
+        end else begin
+            if (we_a) memo[addr_a] <= data_a;
+            if (we_b) memo[addr_b] <= data_b;
+            dataout_a <= memo[addr_a];
+            dataout_b <= memo[addr_b];
+        end
+    end
+
+
+
+endmodule

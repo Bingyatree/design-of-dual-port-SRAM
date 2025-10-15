@@ -1,0 +1,134 @@
+m255
+K4
+z2
+!s12c _opt2
+Z0 !s99 nomlopt
+!s12c _opt1
+R0
+Z1 !s12c _opt
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+!s11f vlog 2024.1 2024.02, Feb  1 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 dE:/VLSI_TRAINING/VERILOG_CODES
+T_opt
+!s110 1731138137
+V;<mFMfEZ0MUl8Z:Hhh_i70
+04 9 4 work tb_design fast 0
+=1-346f245e3ceb-672f1259-14d-3b94
+R0
+Z3 !s12f OEM100
+Z4 !s12b OEM100
+Z5 !s124 OEM100
+Z6 o-quiet -auto_acc_if_foreign -work work +acc
+Z7 tCvgOpt 0
+n@_opt
+Z8 OL;O;2024.1;79
+R2
+T_opt1
+!s110 1731138787
+VO?2RJAcgNL`F:^i@cD53]3
+Z9 04 13 4 work tb_design_ram fast 0
+=1-346f245e3ceb-672f14e2-2d9-4b98
+R0
+R3
+R4
+R5
+R6
+R7
+n@_opt1
+R8
+R2
+T_opt2
+!s110 1731138903
+V<2`PME>lA22A`2hTMDM4@2
+R9
+=1-346f245e3ceb-672f1557-117-50f0
+R0
+R3
+R4
+R5
+o-quiet -auto_acc_if_foreign -work work -debugdb
+R7
+n@_opt2
+R8
+vdesign_ram_Nxeight
+2E:/VLSI_TRAINING/minor_project/design_ram_Nxeight.v
+Z10 !s110 1731138754
+!i10b 1
+!s100 J=EB]nglje0EcSH:X0?gU1
+Im_k9f<T5Rkkd47TdO<_bO3
+Z11 dE:/VLSI_TRAINING/minor_project
+w1731134246
+8E:/VLSI_TRAINING/minor_project/design_ram_Nxeight.v
+FE:/VLSI_TRAINING/minor_project/design_ram_Nxeight.v
+!i122 11
+L0 1 49
+Z12 VDg1SIo80bB@j0V0VzS_@n1
+Z13 OL;L;2024.1;79
+r1
+!s85 0
+31
+Z14 !s108 1731138754.000000
+!s107 E:/VLSI_TRAINING/minor_project/design_ram_Nxeight.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/VLSI_TRAINING/minor_project/design_ram_Nxeight.v|
+!i113 0
+Z15 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R7
+ndesign_ram_@nxeight
+vtb_design
+2E:/VLSI_TRAINING/minor_project/tb_design.v
+!s110 1731138082
+!i10b 1
+!s100 Thf6AHAk<NK3SePo_zNA@0
+IgQK@MnVRF?BG`=k2mNgV22
+R11
+w1731138079
+8E:/VLSI_TRAINING/minor_project/tb_design.v
+FE:/VLSI_TRAINING/minor_project/tb_design.v
+!i122 9
+L0 1 106
+R12
+R13
+r1
+!s85 0
+31
+!s108 1731138082.000000
+!s107 E:/VLSI_TRAINING/minor_project/tb_design.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/VLSI_TRAINING/minor_project/tb_design.v|
+!i113 0
+R15
+R7
+vtb_design_ram
+2E:/VLSI_TRAINING/minor_project/tb_design_ram.v
+R10
+!i10b 1
+!s100 NE4D5f@?W6>E`S:^lLE^Q2
+I_dn;TUfKeJIDTTai8IXib3
+R11
+w1731138750
+8E:/VLSI_TRAINING/minor_project/tb_design_ram.v
+FE:/VLSI_TRAINING/minor_project/tb_design_ram.v
+!i122 12
+L0 1 81
+R12
+R13
+r1
+!s85 0
+31
+R14
+!s107 E:/VLSI_TRAINING/minor_project/tb_design_ram.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/VLSI_TRAINING/minor_project/tb_design_ram.v|
+!i113 0
+R15
+R7
